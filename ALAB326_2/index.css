@@ -25,27 +25,38 @@ body{
 .card{
 	background:var(--white);
 	border-radius:16px;
-	padding:24px;
+	padding:24px 24px 32px;
 	text-align:center;
-	box-shadow: 0 10px 20px rgba(9,30,63,0.08);
+	box-shadow: 0 20px 30px rgba(9,30,63,0.12);
+	max-width:327px;
+	margin:0 auto;
+}
+.qr-wrapper{
+	background:var(--white);
+	border-radius:12px;
+	padding:12px;
+	display:inline-block;
+	box-shadow: 0 6px 14px rgba(9,30,63,0.06);
+	margin-bottom:18px;
 }
 .qr-image{
 	width:100%;
-	max-width:260px;
 	display:block;
-	margin:0 auto 18px auto;
-	border-radius:12px;
+	max-width:260px;
+	height:auto;
 }
 .card-title{
 	font-size:18px;
 	margin:0 0 12px 0;
 	color:var(--slate-900);
 	line-height:1.2;
+	font-weight:700;
 }
 .card-text{
 	margin:0;
 	font-size:15px;
 	color:var(--slate-500);
+	line-height:1.4;
 }
 
 .attribution{font-size:11px;text-align:center;margin-top:18px}
