@@ -39,3 +39,10 @@ body{
 
 .attribution{font-size:11px;text-align:center;margin-top:18px}
 .attribution a{color:var(--slate-500)}
+
+/* Small overrides to match original layout while using Bootstrap */
+.card{
+	border-radius:24px;
+	max-width:327px;
+	margin:0 auto;
+}
