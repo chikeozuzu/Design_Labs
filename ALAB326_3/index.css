@@ -15,6 +15,15 @@ body{
 	color:var(--slate-900);
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	min-height:100vh;
+	padding:40px;
+}
+
+@media (min-width:768px){
+	body{padding:80px}
 }
 
 .page-wrapper{max-width:375px;width:100%}
