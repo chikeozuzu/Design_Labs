@@ -47,6 +47,25 @@ body{
 	height:auto;
 	display:block;
 }
+
+/* Corner decorations */
+.qr-wrapper{position:relative}
+.corner{
+	position:absolute;
+	width:32px;
+	height:32px;
+	background:var(--white);
+	border-radius:8px;
+	box-shadow: 0 6px 12px rgba(9,30,63,0.08);
+	z-index:3;
+}
+.corner.top-left{top:-12px;left:-12px}
+.corner.top-right{top:-12px;right:-12px}
+.corner.bottom-left{bottom:-12px;left:-12px}
+.corner.bottom-right{bottom:-12px;right:-12px}
+
+/* Small visual tweak: ensure image sits above wrapper background */
+.qr-image{position:relative;z-index:2;border-radius:8px}
 .card-title{
 	font-size:18px;
 	margin:0 0 12px 0;
